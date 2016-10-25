@@ -1,0 +1,94 @@
+apply plugin: 'com.android.application'
+//添加如下代码，应用apt插件
+apply plugin: 'com.neenbedankt.android-apt'
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.0"
+
+    defaultConfig {
+        applicationId "$rootProject.applicationId"
+        minSdkVersion "$rootProject.minSdkVersion"
+        targetSdkVersion "$rootProject.targetSdkVersion"
+        versionCode 1
+        versionName "$rootProject.versionName"
+    }
+    File propFile = file('signing.properties');
+    if (propFile.exists()) {
+        def Properties props = new Properties()
+        props.load(new FileInputStream(propFile))
+        if (props.containsKey('STORE_FILE') && props.containsKey('STORE_PASSWORD') &&
+                props.containsKey('KEY_ALIAS') && props.containsKey('KEY_PASSWORD')) {
+            android.signingConfigs.release.storeFile = file(props['STORE_FILE'])
+            android.signingConfigs.release.storePassword = props['STORE_PASSWORD']
+            android.signingConfigs.release.keyAlias = props['KEY_ALIAS']
+            android.signingConfigs.release.keyPassword = props['KEY_PASSWORD']
+        } else {
+            android.buildTypes.release.signingConfig = null
+        }
+    } else {
+        android.buildTypes.release.signingConfig = null
+    }
+    signingConfigs {
+        debug {
+
+        }
+        release {
+            storeFile file("../yourapp.keystore")
+            storePassword ""
+            keyAlias ""
+            keyPassword ""
+        }
+    }
+    buildTypes {
+        release {
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            minifyEnabled true
+            zipAlignEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug {
+
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            minifyEnabled false
+            zipAlignEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+    }
+}
+
+
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.0.0-beta1'
+    //dagger2相关
+    apt 'com.google.dagger:dagger-compiler:2.2'
+    compile 'com.google.dagger:dagger:2.2'
+    provided 'javax.annotation:jsr250-api:1.0'
+    //butterknife
+    compile 'com.jakewharton:butterknife:7.0.1'
+    //design
+    compile 'com.android.support:design:23.0.0'
+    //logger
+    compile "com.orhanobut:logger:$rootProject.loggerVersion"
+    //EasyImage
+    compile "com.github.jkwiecien:EasyImage:$rootProject.easyImageVersion"
+    //dialog
+    compile project(':pagerslidingtabstrip')
+    compile project(':sweetDialog')
+    //Rxxx
+    compile 'io.reactivex:rxjava:1.0.14'
+    compile 'io.reactivex:rxandroid:1.1.0'
+    compile 'com.trello:rxlifecycle-components:0.4.0'
+    //Retrofit
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.0-beta4'
+    compile 'com.squareup.retrofit2:retrofit:2.0.0-beta4'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.0-beta4'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.3.1'
+}

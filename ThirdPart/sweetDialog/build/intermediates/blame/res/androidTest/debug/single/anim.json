@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\error_x_in.xml",
+        "source": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\bundles\\debug\\res\\anim\\error_x_in.xml"
+    },
+    {
+        "merged": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\modal_out.xml",
+        "source": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\bundles\\debug\\res\\anim\\modal_out.xml"
+    },
+    {
+        "merged": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\error_frame_in.xml",
+        "source": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\bundles\\debug\\res\\anim\\error_frame_in.xml"
+    },
+    {
+        "merged": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\success_mask_layout.xml",
+        "source": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\bundles\\debug\\res\\anim\\success_mask_layout.xml"
+    },
+    {
+        "merged": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
+        "source": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\success_bow_roate.xml",
+        "source": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\bundles\\debug\\res\\anim\\success_bow_roate.xml"
+    },
+    {
+        "merged": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\modal_in.xml",
+        "source": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\bundles\\debug\\res\\anim\\modal_in.xml"
+    },
+    {
+        "merged": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
+        "source": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_enter.xml",
+        "source": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_exit.xml",
+        "source": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "F:\\nbshop2\\ThirdPart\\sweetDialog\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\anim\\abc_slide_out_top.xml"
+    }
+]

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bg_gray">#f0f0f0</color>
+    <color name="text_gray">#272cc1</color>
+    <color name="red">#ff0000</color>
+
+    <color name="themecolor">#FF5001</color>
+    <color name="white">#ffffff</color>
+    <!-- 字段模板选中色 -->
+    <color name="app_rb_select">#f3f3f3</color>
+    <color name="bg_color_f0">#f0f0f0</color>
+    <color name="black_divider">#eeeeee</color>
+    <color name="province_line_border">#C7C7C7</color>
+    <color name="shape_text_blue">#ff2388fa</color>
+    <color name="shape_text_white">#ffffffff</color>
+    <color name="shape_text_black">#ff666666</color>
+    <color name="shape_text_edit_caption">#ff878788</color>
+    <color name="shape_text_edit_content">#ffb6b6b7</color>
+    <color name="shape_background_progress">#99ffffff</color>
+    <color name="shape_background_main_b1">#ffffffff</color>
+    <color name="shape_background_main_b2">#ffd5e1ff</color>
+    <color name="shape_background_tools_bar_b1">#ffd5d4d0</color>
+    <color name="shape_background_tools_bar_b2">#ff00a8ff</color>
+    <color name="shape_background_button_pressed_b1">#ff4fa0fa</color>
+    <color name="shape_background_button_pressed_b2">#ff2388fa</color>
+
+    <!--注册-->
+    <color name="grey">#888</color>
+    <color name="grey_dark">#000</color>
+    <color name="edt_hinit">#c8c7cd</color>
+    <color name="red_login">#FF4400</color>
+    <color name="color_primary">#2196F3</color>
+    <!--重置密码-->
+    <color name="register_pressed">#fea483</color>
+    <color name="btn_orange_pressed">#f9a851</color>
+    <color name="btn_orange_normal">#FAB264</color>
+    <color name="text_color_gray_c1">#c1c1c1</color>
+</resources>

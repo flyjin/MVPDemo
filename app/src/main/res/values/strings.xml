@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">nbshop</string>
+    <string name="tab_home">首页</string>
+    <string name="tab_category">分类</string>
+    <string name="tab_shopcart">购物车</string>
+    <string name="tab_mycenter">我的</string>
+    <string name="application_name">NBShop</string>
+    <string name="activity_user_login_title">会员登陆</string>
+    <string name="activity_user_login_inptut_username">用户</string>
+    <string name="activity_user_login_inptut_username_hint">请输入手机号</string>
+    <string name="activity_user_login_inptut_password">密码</string>
+    <string name="activity_user_login_inptut_password_hint">请输入密码</string>
+    <string name="activity_user_login_inptut_submit">登录</string>
+    <string name="activity_user_login_inptut_regedit">注册</string>
+    <string name="activity_user_register_top_title">会员注册</string>
+    <string name="activity_user_register_name">请输入用户名，建议使用手机号或者邮箱</string>
+    <string name="activity_user_register_password">6－12位字符(特殊字符除外)，区分大小写</string>
+    <string name="activity_user_register_psw_again">请再次输入密码</string>
+    <string name="activity_user_register_email">邮箱</string>
+    <string name="activity_user_register_phone">手机或随车电话</string>
+    <string name="header_hint_refresh_normal">下拉可以刷新</string>
+    <string name="header_hint_refresh_ready">松开后刷新</string>
+    <string name="header_hint_refresh_loading">正在加载中</string>
+    <string name="header_hint_refresh_time">上次更新：</string>
+    <string name="footer_hint_load_normal">查看更多</string>
+    <string name="footer_hint_load_ready">松开加载</string>
+    <string name="footer_hint_load_all">已加载</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="oil_charge_tips">油卡充值100%到账，提交申请后，一般2小时完成充值，提交充值申请后不能取消。</string>
+    <string name="driver_auth_tips">上传证件时需上传证件正面照，并且需看清证件内容。驾驶员站在车前照片需看清驾驶员和车牌号。</string>
+</resources>

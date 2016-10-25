@@ -1,0 +1,5 @@
+include ':app',':pagerslidingtabstrip',"sweetDialog"
+project(':pagerslidingtabstrip').projectDir = new File('ThirdPart/pagerslidingtabstrip')
+project(':sweetDialog').projectDir =new File('ThirdPart/sweetDialog')
+
+rootProject.name = 'nbshop2'

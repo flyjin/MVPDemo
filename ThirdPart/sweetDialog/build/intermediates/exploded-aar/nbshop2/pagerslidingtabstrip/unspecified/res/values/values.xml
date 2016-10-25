@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="default_tab_background">#47876DDE</color>
+    <declare-styleable name="PagerSlidingTabStrip"><attr format="color|reference" name="pstsIndicator"/><attr format="color|reference" name="pstsDivider"/><attr format="dimension" name="pstsIndicatorHeight"/><attr format="dimension" name="pstsUnderlineHeight"/><attr format="dimension" name="pstsDividerPadding"/><attr format="dimension" name="pstsTabPaddingLeftRight"/><attr format="dimension" name="pstsScrollOffset"/><attr format="color|reference" name="pstsTabBackground"/><attr format="boolean" name="pstsShouldExpand"/><attr format="integer" name="pstsItemCountInScreen"/><attr format="boolean" name="pstsTextAllCaps"/><attr format="boolean" name="pstsTabCountOnScreen"/></declare-styleable>
+    <string name="app_name">PagerSlidingTabStrip</string>
+</resources>
